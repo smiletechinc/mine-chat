@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345190842092",
+    "project_id": "minebot-d2458",
+    "storage_bucket": "minebot-d2458.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345190842092:android:3596b549cec39e4263efc9",
+        "android_client_info": {
+          "package_name": "com.minebot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDND0a68xE-gsF4jOqUcewHCHiopkSowo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
