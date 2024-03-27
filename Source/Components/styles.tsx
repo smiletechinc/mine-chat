@@ -34,9 +34,10 @@ export const btnLogin = StyleSheet.create({
         backgroundColor: 'darkblue',
         alignItems: 'center',
         marginHorizontal: '15%',
-        marginVertical:20,
+        marginVertical:10,
         paddingVertical: 10,
-        marginTop: 20
+        marginTop: 20,
+        
         //height: 30
     }
 })

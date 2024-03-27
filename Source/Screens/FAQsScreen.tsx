@@ -15,7 +15,7 @@ type Props = {
 const FAQsScreen: FunctionComponent<Props> = (props) => {
     return (
         <ScrollView style={{backgroundColor:"white"}}>
-            <View style={{ width: '100%', height: 'auto', backgroundColor: 'skyblue', padding: 10, marginBottom: 4 }}>
+            <View style={{ width: '100%', height: 'auto', backgroundColor: '#20129D', padding: 10, marginBottom: 4 }}>
                 <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 18, alignSelf: 'center', paddingVertical: 8 }}>
                     Frequently Asked Questions (FAQs)
                 </Text>
@@ -86,7 +86,7 @@ const FAQsScreen: FunctionComponent<Props> = (props) => {
                 </View>
             </View>
             <View>
-                <View style={{ padding: 8, margin: 6, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
+                <View style={{ padding: 8, margin: 6, marginVertical: 2, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
                     <View style={{ backgroundColor: 'grey', width: 50, borderRadius: 50, aspectRatio: 1 }}>
                         <Text style={{ fontSize: 28, color: 'white', alignContent: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', flex: 1 }}>
                             Q
@@ -99,7 +99,7 @@ const FAQsScreen: FunctionComponent<Props> = (props) => {
                 </View>
             </View>
             <View>
-                <View style={{ padding: 8, margin: 6, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
+                <View style={{ padding: 8, margin: 6, marginVertical: 2, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
                     <View style={{ backgroundColor: 'grey', width: 50, borderRadius: 50, aspectRatio: 1 }}>
                         <Text style={{ fontSize: 28, color: 'white', alignContent: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', flex: 1 }}>
                             Q
@@ -112,7 +112,7 @@ const FAQsScreen: FunctionComponent<Props> = (props) => {
                 </View>
             </View>
             <View>
-                <View style={{ padding: 8, margin: 6, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
+                <View style={{ padding: 8, margin: 6, marginVertical: 2, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
                     <View style={{ backgroundColor: 'grey', width: 50, borderRadius: 50, aspectRatio: 1 }}>
                         <Text style={{ fontSize: 28, color: 'white', alignContent: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', flex: 1 }}>
                             Q
@@ -125,7 +125,7 @@ const FAQsScreen: FunctionComponent<Props> = (props) => {
                 </View>
             </View>
             <View>
-                <View style={{ padding: 8, margin: 6, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
+                <View style={{ padding: 8, margin: 6, marginVertical: 2, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
                     <View style={{ backgroundColor: 'grey', width: 50, borderRadius: 50, aspectRatio: 1 }}>
                         <Text style={{ fontSize: 28, color: 'white', alignContent: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', flex: 1 }}>
                             Q
@@ -138,7 +138,7 @@ const FAQsScreen: FunctionComponent<Props> = (props) => {
                 </View>
             </View>
             <View>
-                <View style={{ padding: 8, margin: 6, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
+                <View style={{ padding: 8, margin: 6, marginVertical: 2, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
                     <View style={{ backgroundColor: 'grey', width: 50, borderRadius: 50, aspectRatio: 1 }}>
                         <Text style={{ fontSize: 28, color: 'white', alignContent: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', flex: 1 }}>
                             Q
@@ -151,7 +151,7 @@ const FAQsScreen: FunctionComponent<Props> = (props) => {
                 </View>
             </View>
             <View>
-                <View style={{ padding: 8, margin: 6, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
+                <View style={{ padding: 8, margin: 6, marginVertical: 2, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
                     <View style={{ backgroundColor: 'grey', width: 50, borderRadius: 50, aspectRatio: 1 }}>
                         <Text style={{ fontSize: 28, color: 'white', alignContent: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', flex: 1 }}>
                             Q
@@ -164,7 +164,7 @@ const FAQsScreen: FunctionComponent<Props> = (props) => {
                 </View>
             </View>
             <View>
-                <View style={{ padding: 8, margin: 6, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
+                <View style={{ padding: 8, margin: 6, marginVertical: 2, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
                     <View style={{ backgroundColor: 'grey', width: 50, borderRadius: 50, aspectRatio: 1 }}>
                         <Text style={{ fontSize: 28, color: 'white', alignContent: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', flex: 1 }}>
                             Q
@@ -177,7 +177,7 @@ const FAQsScreen: FunctionComponent<Props> = (props) => {
                 </View>
             </View>
             <View>
-                <View style={{ padding: 8, margin: 6, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
+                <View style={{ padding: 8, margin: 6, marginVertical: 2, backgroundColor: '#DEDEDE', borderRadius: 10, flexDirection: 'row' }}>
                     <View style={{ backgroundColor: 'grey', width: 50, borderRadius: 50, aspectRatio: 1 }}>
                         <Text style={{ fontSize: 28, color: 'white', alignContent: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', flex: 1 }}>
                             Q

@@ -23,7 +23,7 @@ const ProfileScreen: FunctionComponent<Props> = (props) => {
     return (
         <ScrollView>
             <View>
-                <View style={{ width: '100%', height: 180, backgroundColor: 'skyblue' }}>
+                <View style={{ width: '100%', height: 180, backgroundColor: '#20129D' }}>
                     <View style={{ flexDirection: 'row' }}>
                         <View style={{ width: 50, aspectRatio: 1, backgroundColor: 'grey', marginLeft: 20, marginTop: 20, borderRadius: 50 }}>
                         </View>
@@ -31,44 +31,45 @@ const ProfileScreen: FunctionComponent<Props> = (props) => {
                     </View>
 
 
-                    <Text style={{ marginTop: 15, color: 'white', fontSize: 25, fontWeight: 'bold', marginLeft: 20 }}>Muhammad Umer Farooq</Text>
-                    <Text style={{ color: '#FAFAFA', fontSize: 20, fontWeight: 'bold', marginLeft: 20 }}>Assistant Project Manager</Text>
+                    <Text style={{ marginTop: 15, color: 'white', fontSize: 25, fontWeight: 'bold', marginLeft: 20 }}>Ahsan Mahboob</Text>
+                    <Text style={{ color: '#FAFAFA', fontSize: 20, fontWeight: 'bold', marginLeft: 20 }}>Head of DigiMine</Text>
 
                 </View>
                 <View>
                     <View style={{ flexDirection: 'row', alignItems: 'center', alignSelf: 'center' }}>
-                        <TouchableHighlight style={{ backgroundColor: 'skyblue', padding: 10, margin: 10, borderRadius: 10 }}>
+                        <TouchableHighlight style={{ backgroundColor: '#20129D', padding: 10, margin: 10, borderRadius: 10 }}>
                             <Text style={{ color: 'white' }}>Edit Profle</Text>
                         </TouchableHighlight>
-                        <TouchableHighlight style={{ backgroundColor: 'skyblue', padding: 10, margin: 10, borderRadius: 10 }}>
+                        <TouchableHighlight style={{ backgroundColor: '#20129D', padding: 10, margin: 10, borderRadius: 10 }}>
                             <Text style={{ color: 'white' }}>Share Profle</Text>
                         </TouchableHighlight>
                     </View>
                     <View>
                         <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
+                            <Text style={{ color: 'black', fontWeight:'bold', fontSize:16 }}>Age: 34</Text>
+                        </TouchableHighlight>
+                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
+                            <Text style={{ color: 'black' , fontWeight:'bold', fontSize:16}}>Date of Birth: 02/04/1990</Text>
+                        </TouchableHighlight>
+                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
+                            <Text style={{ color: 'black', fontWeight:'bold', fontSize:16 }}>Gender: Male</Text>
+                        </TouchableHighlight>
+                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
+                            <Text style={{ color: 'black', fontWeight:'bold', fontSize:16}}>Email: mahsan.mahboob@wits.ac.za</Text>
+                        </TouchableHighlight>
+                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
+                            <Text style={{ color: 'black', fontWeight:'bold', fontSize:16 }}>Contact: +27 11 1234567</Text>
+                        </TouchableHighlight>
+                        {/* <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
                             <Text style={{ color: 'black', fontWeight:'bold', fontSize:16 }}>Age: 26</Text>
-                        </TouchableHighlight>
-                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
-                            <Text style={{ color: 'black' , fontWeight:'bold', fontSize:16}}>Date of Birth: 02/04/1999</Text>
-                        </TouchableHighlight>
-                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
-                            <Text style={{ color: 'black', fontWeight:'bold', fontSize:16}}>Email: mr.umerfarooq@icloud.com</Text>
-                        </TouchableHighlight>
-                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
-                            <Text style={{ color: 'black', fontWeight:'bold', fontSize:16 }}>Contact: +92 3337600088</Text>
-                        </TouchableHighlight>
-                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
-                            <Text style={{ color: 'black', fontWeight:'bold', fontSize:16 }}>Age: 26</Text>
-                        </TouchableHighlight>
-                        <TouchableHighlight style={{ backgroundColor: '#EEEEEE', padding: 10, marginHorizontal: 10, borderRadius: 0 }}>
-                            <Text style={{ color: 'black', fontWeight:'bold', fontSize:16 }}>Date of Birth: 02/04/1999</Text>
-                        </TouchableHighlight>
+                        </TouchableHighlight> */}
+                        
 
                     </View>
                 </View>
 
-                <TouchableOpacity style={{ backgroundColor: 'skyblue', borderRadius: 10, height: 45, alignContent: 'center', width: '95%', margin: 10, padding: 10 }} onPress={() => props.navigation.navigate("UserChat")}>
-                    <Text style={{ color: 'white', alignItems: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle' }}>Contact an agent!</Text>
+                <TouchableOpacity style={{ backgroundColor: '#20129D', borderRadius: 10, height: 45, alignContent: 'center', width: '95%', margin: 10, padding: 10 }} onPress={() => props.navigation.navigate("UserChat")}>
+                    <Text style={{ color: 'white', alignItems: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle' }}>Select Your Mining Partner</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={{ backgroundColor: 'orange', borderRadius: 10, height: 45, alignContent: 'center', width: '95%', margin: 10, padding: 10 }} onPress={Logout}>
                     <Text style={{ color: 'white', alignItems: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle' }}>Logout</Text>

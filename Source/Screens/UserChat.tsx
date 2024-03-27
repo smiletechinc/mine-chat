@@ -36,7 +36,7 @@ const UserChat: FunctionComponent<Props> = (props) => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerText}>DigiMine Support</Text>
+        <Text style={styles.headerText}>Mastermine Support</Text>
       </View>
       <FlatList
         data={messages}
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    backgroundColor: 'skyblue',
+    backgroundColor: '#20129D',
     padding: 10,
     paddingVertical:15,
     alignItems: 'flex-start',
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     padding: 10,
     marginRight: 6,
     borderRadius: 50,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#20129D',
   },
   sendButtonText: {
     color: 'white',

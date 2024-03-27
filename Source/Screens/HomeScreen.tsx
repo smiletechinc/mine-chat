@@ -23,133 +23,133 @@ type Props = {
 const DATA = [
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-    title: 'First WITS Mining Institute WMI',
-    location: 'South Africa',
+    title: 'THARSIS Mining',
+    location: 'Spain',
     logo: "llll",
   },
   {
     id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-    title: 'Sibaniya Stillwater, Sibaniya Stillwater, Sibaniya Stillwater',
-    location: 'South Africa',
+    title: 'Tapojärvi Mining',
+    location: 'Finland',
     logo: "llll",
   },
   {
     id: '58694a0f-3da1-471f-bd96-145571e29d72',
-    title: 'Gold Fields',
-    location: 'South Africa',
+    title: 'Jastrzębska Spółka Węglowa SA', 
+    location: 'Poland',
     logo: "llll",
   },
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53ab338ba',
-    title: 'NHSC',
-    location: 'South Africa',
+    title: 'TERNA MAG',
+    location: 'Greece',
     logo: "llll",
   },
   {
     id: '3ac68afc-c605-48d3-a4f8-fbd9asa97f63',
-    title: 'IBM',
+    title: 'Sibanye-StillwaterM',
     location: 'South Africa',
     logo: "llll",
   },
-  {
-    id: '58694a0f-3da1-47dsf-bd96-145571e29d72',
-    title: 'Akita University',
-    location: 'South Africa',
-    logo: "llll",
-  }, {
-    id: 'bd7acbea-c1b1-46c2-aadfed5-3ad53abb28ba',
-    title: 'BBE Group',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '3ac68afc-c605-48d3-a4f8-fbd91aafa97f63',
-    title: 'BGRIMM',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '58694a0f-3da1-471fsf-bd96-145571dgae29d72',
-    title: 'CONSPEC',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '5869SDF4a0f-3da1-471f-bd96-145571dgae29d72',
-    title: 'detnet',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '58694a0f-ss3da1-471f-bd96-145571dgae29d72',
-    title: 'DIGGER',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '5869EPA4a0f-3da1-471f-bd96-145571dgae29d72',
-    title: 'EPA',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: 'esri58694a0f-3da1-471f-bd96-145571dgae29d72',
-    title: 'esri',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: 'HORTS58694a0f-3da1-471f-bd96-145571dgae29d72',
-    title: 'HORTS',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: 'HUAWEI58694a0f-3da1-471f-bd96-145571dgae29d72',
-    title: 'HUAWEI',
-    location: 'South Africa',
-    logo: "llll",
-  }, {
-    id: 'Leica58694a0f-3da1-471f-bd96-145571dgae29d72',
-    title: 'Leica Geosystems',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: 'LETSTALK58694a0f-3da1-471f-bd96-145571dgae29d72',
-    title: `LET'S TALK`,
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-14SD5571dgae29d72',
-    title: 'Ninth Item',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-1455ADF71dgae29d72',
-    title: 'Ninth Item',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-145571SDFGdgae29d72',
-    title: 'Ninth Item',
-    location: 'South Africa',
-    logo: "llll",
-  }, {
-    id: '58694a0f-3da1-471f-bd96-145571dgHFDGHae29d72',
-    title: 'Ninth Item',
-    location: 'South Africa',
-    logo: "llll",
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-145571SDFdgae29d72',
-    title: 'Ninth Item',
-    location: 'South Africa',
-    logo: "llll",
-  },
+  // {
+  //   id: '58694a0f-3da1-47dsf-bd96-145571e29d72',
+  //   title: 'Akita University',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // }, {
+  //   id: 'bd7acbea-c1b1-46c2-aadfed5-3ad53abb28ba',
+  //   title: 'BBE Group',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '3ac68afc-c605-48d3-a4f8-fbd91aafa97f63',
+  //   title: 'BGRIMM',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '58694a0f-3da1-471fsf-bd96-145571dgae29d72',
+  //   title: 'CONSPEC',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '5869SDF4a0f-3da1-471f-bd96-145571dgae29d72',
+  //   title: 'detnet',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '58694a0f-ss3da1-471f-bd96-145571dgae29d72',
+  //   title: 'DIGGER',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '5869EPA4a0f-3da1-471f-bd96-145571dgae29d72',
+  //   title: 'EPA',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: 'esri58694a0f-3da1-471f-bd96-145571dgae29d72',
+  //   title: 'esri',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: 'HORTS58694a0f-3da1-471f-bd96-145571dgae29d72',
+  //   title: 'HORTS',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: 'HUAWEI58694a0f-3da1-471f-bd96-145571dgae29d72',
+  //   title: 'HUAWEI',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // }, {
+  //   id: 'Leica58694a0f-3da1-471f-bd96-145571dgae29d72',
+  //   title: 'Leica Geosystems',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: 'LETSTALK58694a0f-3da1-471f-bd96-145571dgae29d72',
+  //   title: `LET'S TALK`,
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '58694a0f-3da1-471f-bd96-14SD5571dgae29d72',
+  //   title: 'Ninth Item',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '58694a0f-3da1-471f-bd96-1455ADF71dgae29d72',
+  //   title: 'Ninth Item',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '58694a0f-3da1-471f-bd96-145571SDFGdgae29d72',
+  //   title: 'Ninth Item',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // }, {
+  //   id: '58694a0f-3da1-471f-bd96-145571dgHFDGHae29d72',
+  //   title: 'Ninth Item',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
+  // {
+  //   id: '58694a0f-3da1-471f-bd96-145571SDFdgae29d72',
+  //   title: 'Ninth Item',
+  //   location: 'South Africa',
+  //   logo: "llll",
+  // },
 ];
 type companies = { title: string, logo: string, location: string };
 const Item = ({ title, logo, location }: companies) => (
@@ -182,22 +182,22 @@ const HomeScreen: FunctionComponent<Props> = (props) => {
 
   return (
     <View style = {{backgroundColor:"white"}}>
-      <View style={{ width: '100%', height: 180, backgroundColor: 'skyblue' }}>
+      <View style={{ width: '100%', height: 180, backgroundColor: '#20129D', paddingTop:20 }}>
         <View style={{ width: 50, aspectRatio: 1, backgroundColor: 'grey', marginLeft: 20, marginTop: 20, borderRadius: 50 }}>
         </View>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
           <Text style={{ marginLeft: 20, marginTop: 15, color: 'white', fontSize: 25 }}>
             Hello,
           </Text >
-          <Text style={{ marginTop: 15, color: 'white', fontSize: 25, fontWeight: 'bold', marginLeft: 6 }}>Muhammad Umer,</Text>
+          <Text style={{ marginTop: 15, color: 'white', fontSize: 25, fontWeight: 'bold', marginLeft: 6 }}>Ahsan Mahboob</Text>
         </View>
         <Text style={{ marginLeft: 20, marginTop: 10, color: 'white', fontSize: 20 }}>
-          Welcome to DigiMine Live Chat...
+          {/* Welcome to DigiMine Live Chat... */}
         </Text>
       </View>
       <View>
-        <View style={{ backgroundColor: 'skyblue' }}>
-          <Text style={{ backgroundColor: '#FFFFFF', padding: 10, fontSize: 20, fontWeight: 'bold', color: 'black', paddingLeft: 15 }}>Select Your Mining Partner</Text>
+        <View style={{ backgroundColor: '#20129D' }}>
+          <Text style={{ backgroundColor: '#FFFFFF', padding: 10, fontSize: 20, fontWeight: 'bold', color: 'black', paddingLeft: 15 }}>Welcome to mastermine live chat.</Text>
         </View>
         <View style={{ flexDirection: 'column', flexWrap: 'wrap', marginTop: 0, height:490 }}>
 
@@ -207,21 +207,20 @@ const HomeScreen: FunctionComponent<Props> = (props) => {
             keyExtractor={item => item.id}
           />
         </View>
+
         {/* <TouchableOpacity style={{ backgroundColor: 'skyblue', borderRadius: 10, height: 'auto', alignContent: 'center', width: '95%', margin: 10, padding: 10 }} onPress={() => props.navigation.navigate("UserChat")}>
           <Text style={{ color: 'white', alignItems: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', fontWeight: 'bold' }}>Contact an agent!</Text>
         </TouchableOpacity> */}
+
       </View>
       <View>
-      <TouchableOpacity style={{ backgroundColor: 'skyblue', borderRadius: 10, height: 'auto', alignContent: 'center', width: '95%', margin: 10, padding: 10 }} onPress={() => props.navigation.navigate("UserChat")}>
-          <Text style={{ color: 'white', alignItems: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', fontWeight: 'bold' }}>Contact an agent!</Text>
+      <TouchableOpacity style={{ backgroundColor: '#20129D', borderRadius: 10, height: 'auto', alignContent: 'center', width: '95%', margin: 10, padding: 10 }} onPress={() => props.navigation.navigate("UserChat")}>
+          <Text style={{ color: 'white', alignItems: 'center', alignSelf: 'center', textAlignVertical: 'center', verticalAlign: 'middle', fontWeight: 'bold' }}>Select Your Mining Partner</Text>
         </TouchableOpacity>
       </View>
     </View>
   )
 }
-
-
-
 
 const styles = StyleSheet.create({
   container: {

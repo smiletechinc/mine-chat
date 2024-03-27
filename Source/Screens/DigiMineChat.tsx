@@ -17,9 +17,9 @@ const DigiMineChatScreen: FunctionComponent = (props) => {
         <View>
             
         <ScrollView style={{}}>
-            <View style = {{width:'100%', height:'auto',  backgroundColor:'skyblue', padding:10, marginBottom:4}}>
+            <View style = {{width:'100%', height:'auto',  backgroundColor:'#20129D', padding:10, marginBottom:4}}>
                 <Text style = {{color:'white', fontWeight:'bold', fontSize:20, alignSelf:'center', paddingVertical:10}}>
-                    DigiMine Chat
+                    Mastermine chats
                 </Text>
             </View>
             <View>
