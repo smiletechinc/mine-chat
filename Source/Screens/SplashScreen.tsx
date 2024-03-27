@@ -1,5 +1,5 @@
 import React, { FunctionComponent, useEffect, useState } from 'react';
-import { Button, TouchableOpacity, Text, TextInput, View, Alert } from "react-native"
+import { Button, TouchableOpacity, Text, TextInput, View, Alert, Image } from "react-native"
 import auth, { FirebaseAuthTypes } from '@react-native-firebase/auth';
 import { ic } from '../Components/styles';
 
@@ -42,7 +42,13 @@ const SplashScreen: FunctionComponent<Props> = ({ navigation }) => {
   return (
     <View style={{ backgroundColor: 'skyblue', display: 'flex', flex: 1 }}>
       <View style={[ic.icon, { marginTop: 150 }]}></View>
-      <Text style={{ alignSelf: 'center', marginTop: 120, color: '#fff', fontSize: 30, fontWeight: 'bold' }}>DigiMine Chat!</Text>
+      {/* <Image
+        source={require('D:\Development\WITS\MineBotGit\Source\Screens\Assets\master-mine-logo-removebg-preview.png')} // Local image
+        // OR
+        // source={{ uri: 'https://example.com/image.png' }} // Remote image
+        style={{ width: 200, height: 200 }} // Adjust width and height as needed
+      /> */}
+      <Text style={{ alignSelf: 'center', marginTop: 120, color: '#fff', fontSize: 30, fontWeight: 'bold' }}>mastermine chat!</Text>
     </View>)
 }
 export default SplashScreen;
